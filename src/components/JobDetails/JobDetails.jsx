@@ -9,8 +9,7 @@ const JobDetails = () => {
     const {job_title, job_description, job_responsibility, educational_requirements, experiences, salary, contact_information} = job;
 
     return (
-        <div>
-            <h2 className="text-2xl font-bold mb-5">Job Details of: {job_title}</h2>
+        <div className="my-14 px-4 md:px-0">
             <div className="grid md:grid-cols-4 gap-4">
                 <div className=" md:col-span-3">
                     <p className="md:text-base mb-6"><span className="font-bold text-[#1A1919]">Job Description:</span> {job_description}</p>
@@ -26,13 +25,13 @@ const JobDetails = () => {
                             <h2 className="text-xl text-[#1A1919] font-bold mb-3">Job Details</h2>
                             <hr />
                             <p className="flex gap-1 mt-3">
-                                <i className='bx bx-dollar-circle md:text-base text-[#7E90FE] font-medium pt-[1px]'></i> 
+                                <i className='bx bx-dollar-circle pt-1 md:text-base text-[#7E90FE] font-medium md:pt-[1px]'></i> 
                                 <div>
                                     <span className="font-bold text-xs">Salary :</span> <span className="md:text-xs text-[#474747]">{salary}</span>
                                 </div> 
                             </p>
                             <p className="flex gap-1">
-                                <i className='bx bx-dollar-circle md:text-base text-[#7E90FE] font-medium pt-[1px]'></i> 
+                                <i className='bx bx-dollar-circle pt-1 md:text-base text-[#7E90FE] font-medium md:pt-[1px]'></i> 
                                 <div>
                                     <span className="font-bold text-xs">Job Title :</span> <span className="md:text-xs text-[#474747]">{job_title}</span>
                                 </div> 
@@ -42,21 +41,21 @@ const JobDetails = () => {
                             <h2 className="text-xl text-[#1A1919] font-bold mb-3 mt-3">Contact Information</h2>
                             <hr />
                             <p className="flex gap-1 mt-3">
-                                <i className='bx bx-dollar-circle md:text-base text-[#7E90FE] font-medium pt-[1px]'></i> 
+                                <i className='bx bx-dollar-circle pt-1 md:text-base text-[#7E90FE] font-medium md:pt-[1px]'></i> 
                                 <div>
-                                    <span className="font-bold text-xs">Phone :</span> <span className="md:text-xs text-[#474747]">{contact_information.phone}</span>
+                                    <span className="font-bold text-sm md:text-xs">Phone :</span> <span className="md:text-xs text-[#474747]">{contact_information.phone}</span>
                                 </div> 
                             </p>
                             <p className="flex gap-1">
-                                <i className='bx bx-dollar-circle md:text-base text-[#7E90FE] font-medium pt-[1px]'></i> 
+                                <i className='bx bx-dollar-circle pt-1 md:text-base text-[#7E90FE] font-medium md:pt-[1px]'></i> 
                                 <div>
-                                    <span className="font-bold text-xs">Email :</span> <span className="md:text-xs text-[#474747]">{contact_information.email}</span>
+                                    <span className="font-bold text-sm md:text-xs">Email :</span> <span className="md:text-xs text-[#474747]">{contact_information.email}</span>
                                 </div> 
                             </p>
                             <p className="flex gap-1">
-                                <i className='bx bx-dollar-circle md:text-base text-[#7E90FE] font-medium pt-[1px]'></i> 
+                                <i className='bx bx-dollar-circle pt-1 md:text-base text-[#7E90FE] font-medium md:pt-[1px]'></i> 
                                 <div>
-                                    <span className="font-bold text-xs">Address :</span> <span className="md:text-xs text-[#474747]">{contact_information.address}</span>
+                                    <span className="font-bold text-sm md:text-xs">Address :</span> <span className="md:text-xs text-[#474747]">{contact_information.address}</span>
                                 </div> 
                             </p>
                         </div>
