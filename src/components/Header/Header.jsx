@@ -20,7 +20,7 @@ const Header = () => {
                     {links}
                 </ul>
                 </div>
-                <Link to='/' className="text-3xl font-bold">Carrer Life</Link>
+                <Link to='/' className="text-2xl lg:text-3xl font-bold">Carrer Life</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
