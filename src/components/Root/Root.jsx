@@ -6,8 +6,10 @@ import './Root.css';
 const Root = () => {
     return (
         <div className="manrope">
-            <Header></Header>
-            <Outlet></Outlet>
+            <div className="max-w-6xl mx-auto">
+                <Header></Header>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
